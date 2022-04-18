@@ -22,7 +22,6 @@ const hideCompleted = ref(false)
 
 const todos = ref([
   { id: id++, text: 'Learn HTML' },
-  { id: id++, text: 'Learn JavaScript' },
   { id: id++, text: 'Learn Vue' }
 ])
 
