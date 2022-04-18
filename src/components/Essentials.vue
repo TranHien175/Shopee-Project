@@ -34,7 +34,7 @@ const author = reactive({
     ]
 })
 const publishedBooksMessage = computed(() => {
-  return author.books.length > 0 ? 'Yes' : 'No'
+  return author.books.length > 0 ? 'Yes' : 'No';
 })
 
 
@@ -51,7 +51,7 @@ const classObject = computed(() => ({
 const activeClass = ref('active')
 const errorClass = ref('text-danger')
 
-
+console.log(1);
 
 const numbers = ref([1,2,3,4,5,6])
 const evenNumbers = computed(()=>{
